@@ -5,13 +5,14 @@
 #                    Sender of Frags ICMP Packets            #
 #                    GPL - General Public License            #
 #                            -- ## --                        #
-#                       Name: fragicmp - v0.2                #
+#                     Name: fragicmp - v0.2.0                #
 #                          Autor: Khun                       #
 #                       Date:   20/05/2008                   #
 #                                                            #
 #             Felipe Ecker (Khun) - khun@hexcodes.org        #
 #                                                            #
 #############################################################*/
+
 
 //                            Fragicmp:
 // 
