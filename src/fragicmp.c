@@ -213,7 +213,7 @@ static uint32 __run( 	register signed int sock,
 
 	/* .......................(THIRD) Sending 28 bytes.....................*/
 	memset(&packet[20], 'C', 0x8); /* Now we sets the packet to payload 'C' */
-	show("Sending ICMP packet (fragment 2) to host [%s]...\n", address);
+	show("Sending ICMP packet (fragment 3) to host [%s]...\n", address);
 	ip->frag_off = htons(0x4 | 0x2000); /* Insert on fourth octet */
 	ip->tot_len = htons(0x1C); /* Total packet size: 28 bytes */
 	ip->check = __checksum((uint16 *) ip, sizeof(struct iphdr));
