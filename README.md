@@ -1,4 +1,4 @@
-fragicmp
+Fragicmp: More discussion [here (portuguese paper).](http://www.hexcodes.org/frag.i)
 ========
 
-Ip Fragmentation Attack (ICMP attack)
+Prof of Concept of an Ip Fragmentation Attack (over ICMP protocol).
