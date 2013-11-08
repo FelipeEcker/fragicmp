@@ -121,6 +121,7 @@ inline static int __fetchIp( const char *__device , char *__ip ) {
 const char *interfaces[] = {
 	"eth0","eth1","eth2",
 	"wlan0","wlan1","wlan2",
+	"en0","en1","en2",
 	"lo","lo0","lo1"
 };
 
